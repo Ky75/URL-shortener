@@ -1,0 +1,19 @@
+/** Imports **/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+@import url(//db.onlinewebfonts.com/c/6bf45693079092805e8126c9922eb4ff?family=Aaargh);
+
+
+body { margin: 0; padding: 0; font-family: 'Alegreya Sans SC' }
+
+*:focus { outline: none }
+
+/** Content Start **/
+.content { width: 100%; height: 90vh; background-color: #42cf73; overflow: hidden }
+
+.content h1 { font-size: 3.5rem; color: #fff; font-family: 'Alegreya Sans SC'; text-align: center; transform: translateX(-10%); margin-top: 150px }
+.content h1 span { font-size: 3rem; font-family: 'Aaargh' }
+
+.content .input { min-width: 250px; max-width: 500px; display: block; margin: auto; margin-top: 70px }
+.content .input input[type="text"] { width: 90%; height: 40px; border: none; box-shadow: none; display: block; margin: auto; text-align: center }
+
+.content button { width: 140px; height: 40px; border: none; box-shadow: none; background-color: #42cf73; filter: brightness(80%); display: block; margin: 20px auto; cursor: pointer }
